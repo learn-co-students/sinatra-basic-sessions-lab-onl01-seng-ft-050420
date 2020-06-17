@@ -5,9 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="/checkout" method="post">
-      <input type="text" name="item">
-      <input type="submit" id="submit">
-    </form>
+    <h1>Cart</h1>
+    <p><%= @session[:item] %></p>
   </body>
 </html>
